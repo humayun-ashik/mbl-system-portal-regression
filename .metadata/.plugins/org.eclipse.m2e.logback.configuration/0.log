@@ -1,0 +1,18 @@
+2021-01-26 11:32:09,662 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-01-26 11:32:20,172 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2021-01-26 11:34:12,179 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @168400ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-01-26 11:34:12,519 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.35.v20201120; built: 2020-11-27T20:36:51.615Z; git: bdc54f03a5e0a7e280fab27f55c3c75ee8da89fb; jvm 15.0.1+9-18
+2021-01-26 11:34:12,540 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2021-01-26 11:34:12,540 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2021-01-26 11:34:12,541 [Start Help Server] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+2021-01-26 11:34:12,575 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@16665359{/help,null,AVAILABLE}
+2021-01-26 11:34:12,614 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@28452f0d{HTTP/1.1, (http/1.1)}{127.0.0.1:57033}
+2021-01-26 11:34:12,614 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @168843ms
+2021-01-26 11:34:12,615 [Start Help Server] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+2021-01-26 11:37:07,268 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@28452f0d{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2021-01-26 11:37:07,268 [Stop Help Server] INFO  org.eclipse.jetty.server.session - node0 Stopped scavenging
+2021-01-26 11:37:07,297 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@16665359{/help,null,STOPPED}
+2021-01-26 11:37:22,393 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-01-26 11:37:32,892 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2021-01-26 11:40:08,088 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-01-26 11:40:18,429 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.

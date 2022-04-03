@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="5" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-22T11:29:25Z" name="MBL Rainbow | MBL Rainbow Web Test Suite" finished-at="2021-02-22T11:29:43Z" duration-ms="17648">
+    <groups>
+    </groups>
+    <test started-at="2021-02-22T11:29:25Z" name=" Admin Branch Management Test - chrome" finished-at="2021-02-22T11:29:43Z" duration-ms="17648">
+      <class name="com.konasl.mbl.system.mblAdmin.BranchManagementTest">
+        <test-method is-config="true" signature="setupTest(java.lang.String)[pri:0, instance:com.konasl.mbl.system.mblAdmin.BranchManagementTest@445b295b]" started-at="2021-02-22T11:29:25Z" name="setupTest" finished-at="2021-02-22T11:29:36Z" duration-ms="10591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="generateBranchQrAllItems()[pri:1, instance:com.konasl.mbl.system.mblAdmin.BranchManagementTest@445b295b]" started-at="2021-02-22T11:29:36Z" name="generateBranchQrAllItems" finished-at="2021-02-22T11:29:42Z" duration-ms="6430" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <input _ngcontent-c11="" id="selectAllCheckBox" type="checkbox"> is not clickable at point (1805, 502). Other element would receive the click: <label _ngcontent-c11="" for="selectAllCheckBox" style="padding-bottom: 7px">...</label>
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'K-CHISTY-D1', ip: '10.88.221.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Ashik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53672}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1f5b3da64f1d4d817586c3ac95119070]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input _ngcontent-c11="" id="selectAllCheckBox" type="checkbox"> is not clickable at point (1805, 502). Other element would receive the click: <label _ngcontent-c11="" for="selectAllCheckBox" style="padding-bottom: 7px">...</label>
+  (Session info: chrome=87.0.4280.141)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'K-CHISTY-D1', ip: '10.88.221.13', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Ashik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53672}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1f5b3da64f1d4d817586c3ac95119070
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at com.konasl.mbl.system.mblAdmin.BranchManagementTest.generateBranchQrAllItems(BranchManagementTest.java:118)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateBranchQrAllItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.konasl.mbl.system.mblAdmin.BranchManagementTest@445b295b]" started-at="2021-02-22T11:29:42Z" name="tearDown" finished-at="2021-02-22T11:29:43Z" duration-ms="609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.konasl.mbl.system.mblAdmin.BranchManagementTest -->
+    </test> <!--  Admin Branch Management Test - chrome -->
+  </suite> <!-- MBL Rainbow | MBL Rainbow Web Test Suite -->
+</testng-results>

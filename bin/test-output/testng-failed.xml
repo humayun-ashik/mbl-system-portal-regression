@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [MBL Rainbow | MBL Rainbow Web Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="methods" name=" Admin Branch Management Test - chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.konasl.mbl.system.mblAdmin.BranchManagementTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupTest"/>
+          <include name="generateBranchQrAllItems"/>
+        </methods>
+      </class> <!-- com.konasl.mbl.system.mblAdmin.BranchManagementTest -->
+    </classes>
+  </test> <!--  Admin Branch Management Test - chrome(failed) -->
+</suite> <!-- Failed suite [MBL Rainbow | MBL Rainbow Web Test Suite] -->
