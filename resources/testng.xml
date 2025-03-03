@@ -30,6 +30,8 @@
 			<class name="com.konasl.mbl.system.mblAdmin.BillPayManagementTest"></class>
 		</classes>
 	</test>
+
+</suite>
 	<!--
 	<test name="Login Test - chrome" parallel="methods" thread-count="1">
 		<parameter name="browser" value="chrome" />
@@ -86,5 +88,5 @@
 	</test>
 	-->
 
-</suite>
+
 
